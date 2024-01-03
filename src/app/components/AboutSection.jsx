@@ -5,26 +5,27 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "Subjects we teach",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Math (k-6)</li>
+        <li>English (k-12)</li>
+        <li>Science (k-6)</li>
+        
       </ul>
     ),
   },
   {
-    title: "Education",
+    title: "Our Values",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>
+Inclusivity: Embracing diversity in learning needs and backgrounds</li>
+        <li>Empathy: Fostering a supportive and understanding environment</li>
+
+        <li> Collaboration: Working together to create meaningful impacts </li>
       </ul>
     ),
   },
@@ -55,14 +56,20 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">About Us</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            
+          Our idea is driven by a simple yet powerful belief: every child deserves equal access to quality education. Witnessing the barriers faced by kids from underprivileged backgrounds in accessing tutoring inspired us to create this non-profit initiative. Our goal is clear: provide free 1:1 support to these children, unlocking their academic prowess and shaping their futures.
+
+We are not just offering tutoring; we're fostering a community where passionate volunteers, many of whom are students themselves, dedicate their time to make a difference. 
+Our commitment is unwavering - we operate solely on the generosity of volunteers and supporters who share our vision of leveling the educational playing field. Join us in this transformative journey; together, we can rewrite the narrative of education and empower every child to succeed.
+
+
+
+
+
+
+
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

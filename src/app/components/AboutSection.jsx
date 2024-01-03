@@ -62,7 +62,7 @@ const AboutSection = () => {
           Our idea is driven by a simple yet powerful belief: every child deserves equal access to quality education. Witnessing the barriers faced by kids from underprivileged backgrounds in accessing tutoring inspired us to create this non-profit initiative. Our goal is clear: provide free 1:1 support to these children, unlocking their academic prowess and shaping their futures.
 
 We are not just offering tutoring; we're fostering a community where passionate volunteers, many of whom are students themselves, dedicate their time to make a difference. 
-Our commitment is unwavering - we operate solely on the generosity of volunteers and supporters who share our vision of leveling the educational playing field. Join us in this transformative journey; together, we can rewrite the narrative of education and empower every child to succeed.
+ 
 
 
 

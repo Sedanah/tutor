@@ -6,22 +6,20 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-
     id: 1,
     title: "24-Hour Essay Feedback",
     
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/1.png",
+    tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
-  
   },
   {
     id: 2,
-    title: "1:1 Math Assistance (K-6)",
+    title: "Math Assistance (K-6)",
    
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/2.png",
+    tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -29,8 +27,8 @@ const projectsData = [
     id: 3,
     title: "Language Learning Support",
   
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/3.png",
+    tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -38,24 +36,24 @@ const projectsData = [
     id: 4,
     title: "STEM Project Guidance",
     
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Mobile"],
+    image: "/images/projects/4.png",
+    tag: ["All", "General"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
     title: "Homework Help Across Subjects",
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/5.png",
+    tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
     title: "Study Skills and Exam Prep",
-    image: "/images/projects/about-image.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/6.png",
+    tag: ["All", "General"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -92,13 +90,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="1:1"
+          isSelected={tag === "1:1"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="General"
+          isSelected={tag === "General"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -113,6 +111,7 @@ const ProjectsSection = () => {
             <ProjectCard
               key={project.id}
               title={project.title}
+              description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}

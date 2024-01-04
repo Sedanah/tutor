@@ -9,17 +9,24 @@ import StarsCanvas from "./components/StarBackground";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
+ 
+    <main className="flex min-h-screen flex-col bg-gradient-to-r from-[#f472b6] via-purple-500 to-indigo-500">
+       
       <Navbar />
+        
       <div className="container mt-24 mx-auto px-12 py-4">
-      <StarsCanvas/>
+      
         <HeroSection />
+        <StarsCanvas/>
+
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+
       </div>
       <Footer />
     </main>
   );
 }
+

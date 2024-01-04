@@ -26,7 +26,7 @@ frustumCulled
     <PointMaterial
     transparent
     color="$fff"
-    size={0.002}
+    size={0.003}
     sizeAttenuation={true}
     depthWrite={false}
     />

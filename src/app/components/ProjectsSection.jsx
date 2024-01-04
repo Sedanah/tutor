@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "24-Hour Essay Feedback",
     
-    image: "/images/projects/1.png",
+    image: "",
     tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "Math Assistance (K-6)",
    
-    image: "/images/projects/2.png",
+    image: "",
     tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
@@ -27,7 +27,7 @@ const projectsData = [
     id: 3,
     title: "Language Learning Support",
   
-    image: "/images/projects/3.png",
+    image: "",
     tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
@@ -36,7 +36,7 @@ const projectsData = [
     id: 4,
     title: "STEM Project Guidance",
     
-    image: "/images/projects/4.png",
+    image: "",
     tag: ["All", "General"],
     gitUrl: "/",
     previewUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Homework Help Across Subjects",
-    image: "/images/projects/5.png",
+    image: "",
     tag: ["All", "1:1"],
     gitUrl: "/",
     previewUrl: "/",
@@ -52,7 +52,7 @@ const projectsData = [
   {
     id: 6,
     title: "Study Skills and Exam Prep",
-    image: "/images/projects/6.png",
+    image: "",
     tag: ["All", "General"],
     gitUrl: "/",
     previewUrl: "/",

@@ -38,7 +38,6 @@ frustumCulled
 const StarsCanvas = () => (
     <div className = "w-full h-screen  fixed inset-0 ">
         
-
     <Canvas camera = {{position: [0,0,1]}}> 
     <Suspense fallback={null}> 
     <StarBackground />
@@ -46,7 +45,6 @@ const StarsCanvas = () => (
     </Canvas>
         </div>
 
-    
 )
 
 export default StarsCanvas;
